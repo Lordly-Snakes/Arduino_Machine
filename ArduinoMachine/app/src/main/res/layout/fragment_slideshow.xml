@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/action5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border_radius"
+                android:fontFamily="@font/montserrat"
+                android:paddingTop="13dp"
+                android:text="@string/show"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/action6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border_radius"
+                android:fontFamily="@font/montserrat"
+                android:paddingTop="13dp"
+                android:text="@string/_6"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/action7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border_radius"
+                android:fontFamily="@font/montserrat"
+                android:paddingTop="13dp"
+                android:text="@string/_7"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/action8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border_radius"
+                android:fontFamily="@font/montserrat"
+                android:paddingTop="13dp"
+                android:text="@string/_8"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/action9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border_radius"
+                android:fontFamily="@font/montserrat"
+                android:paddingTop="13dp"
+                android:text="@string/_9"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/action10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border_radius"
+                android:fontFamily="@font/montserrat"
+                android:paddingTop="13dp"
+                android:text="@string/_10"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

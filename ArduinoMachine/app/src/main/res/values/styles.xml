@@ -1,0 +1,44 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarTheme">@color/white</item>
+        <item name="colorPrimary">#0091EA</item>
+        <item name="colorPrimaryDark">#0087DC</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="colorControlNormal">@android:color/white</item>
+
+    </style>
+
+    <style name="OverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@android:color/white</item>
+    </style>
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="RoundedCornerButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="background">@drawable/border_radius</item>
+        <item name="colorButtonNormal">#1a237e</item>
+        <item name="colorControlHighlight">#0091ea</item>
+    </style>
+    <style name="Rounded" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="background">@drawable/rad</item>
+        <item name="colorButtonNormal">#1a237e</item>
+        <item name="colorControlHighlight">#0091ea</item>
+    </style>
+    <style name="bback" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="background">@drawable/back</item>
+        <item name="colorButtonNormal">#1a237e</item>
+        <item name="colorControlHighlight">#0091ea</item>
+    </style>
+</resources>
